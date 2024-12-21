@@ -8,7 +8,7 @@ function Modal({ car, closeModal, onContinue }) {
     <div className="modal-overlay">
       <div className="modal-content">
         <h2>Вы выбрали автомобиль:</h2>
-        <h3 className="car-name">{car.title}</h3> {/* Исправлено с car.name на car.title */}
+        <h3 className="car-name">{car.title}</h3>
 
         <p>
           <strong>Стоимость аренды:</strong> {car.price} руб/день

@@ -1,6 +1,5 @@
 import React from "react";
-import "./Header.css"; // Подключаем стили
-
+import "./Header.css";
 function Header() {
   return (
     <header className="header">

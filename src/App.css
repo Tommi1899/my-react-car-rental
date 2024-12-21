@@ -15,8 +15,6 @@ nav ul li a {
   margin: 0 15px;
   color: white;
 }
-
-/* Стили для списка автомобилей */
 .car-list {
   display: flex;
   flex-wrap: wrap;
