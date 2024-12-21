@@ -1,0 +1,31 @@
+.header {
+  background-image: url("/public/images/fon.jpg"); /* Путь к фоновому изображению */
+  background-size: cover; /* Растягиваем изображение на весь блок */
+  background-position: center; /* Центрируем изображение */
+  background-repeat: no-repeat; /* Избегаем повторения */
+  height: 750px; /* Устанавливаем высоту хедера */
+  display: flex;
+  flex-direction: column; /* Располагаем элементы вертикально */
+  justify-content: flex-start; /* Элементы начинаются с верхней границы */
+  align-items: center; /* Центрируем содержимое по горизонтали */
+  padding-top: 20px; /* Добавляем небольшой отступ сверху для навигации */
+}
+
+.header nav ul {
+  display: flex;
+  justify-content: center; /* Центрируем навигацию горизонтально */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header nav ul li {
+  margin: 0 15px;
+}
+
+.header nav ul li a {
+  text-decoration: none;
+  color: white; /* Цвет текста навигации */
+  font-weight: bold;
+  font-size: 25px;
+}
